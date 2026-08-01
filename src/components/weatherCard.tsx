@@ -1,6 +1,10 @@
 
 
-export default function WeatherCard({weather}){
+type WeatherCardProps = {
+    weather: any;
+};
+
+export default function WeatherCard({weather}: WeatherCardProps){
 
 
 
